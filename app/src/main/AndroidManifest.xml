@@ -1,7 +1,8 @@
 <!-- SPDX-License-Identifier: Apache-2.0 AND GPL-3.0-or-later -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:installLocation="auto">
+    android:installLocation="auto"
+    android:sharedUserId="android.uid.system">
 
     <uses-feature
         android:name="android.software.leanback"
@@ -146,7 +147,6 @@
 
     <application
         android:name=".AppManager"
-        android:sharedUserId="android.uid.system"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/backup_rules"
         android:fullBackupContent="@xml/full_backup_rules"
