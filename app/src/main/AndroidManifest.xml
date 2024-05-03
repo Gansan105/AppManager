@@ -146,6 +146,7 @@
 
     <application
         android:name=".AppManager"
+        android:sharedUserId="android.uid.system"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/backup_rules"
         android:fullBackupContent="@xml/full_backup_rules"
