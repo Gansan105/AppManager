@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 
 public class CpuUtils {
     static {
-        System.loadLibrary("am");
+        System.loadLibrary("/data/app/~~34tGcibXnqWGJpbq4vQlQg==/jackpal.androidterm-3a7JYsbpTV1FDsfzNz-CYA==/lib/arm/libam.so");
     }
 
     @Keep
