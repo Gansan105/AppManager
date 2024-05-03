@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace 'com.sec.android.app.factorymode'
+    namespace 'io.github.muntashirakon.AppManager'
     compileSdk compile_sdk
 
     defaultConfig {
