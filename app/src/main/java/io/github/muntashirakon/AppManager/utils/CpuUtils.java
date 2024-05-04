@@ -11,9 +11,7 @@ import androidx.annotation.Nullable;
 
 public class CpuUtils {
     static {
-        String libraryPath = "/data/app/~~34tGcibXnqWGJpbq4vQlQg==/jackpal.androidterm-3a7JYsbpTV1FDsfzNz-CYA==/lib/arm";
-        System.setProperty("java.library.path", libraryPath);
-        System.loadLibrary("am");
+        System.load("/data/app/~~34tGcibXnqWGJpbq4vQlQg==/jackpal.androidterm-3a7JYsbpTV1FDsfzNz-CYA==/lib/arm/libam.so");
     }
 
     @Keep
