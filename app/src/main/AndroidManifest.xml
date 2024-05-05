@@ -171,6 +171,7 @@
             android:label="@string/one_click_ops" />
         <activity
             android:name=".runningapps.RunningAppsActivity"
+            android:process="system"
             android:exported="true"
             android:label="@string/running_apps" />
         <activity
